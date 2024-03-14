@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-
 import add_0
 
-def add(a, b):
-    a = 1;
-    b = 2;
+a = 1
+b = 2
 
-    print('{} + {} = {}'.format(a, b, a+b))
-
+print(f'{a} + {b}')
