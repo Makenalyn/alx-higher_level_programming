@@ -1,19 +1,26 @@
 #!/usr/bin/python3
 
-class Square:
-    def __init__(self, size=0):
-        self.size = size
+""" class square that defines a square """
 
+
+class Square:
+    """ protected attribute size """
+    __size = None
+
+    """ initializing the size attribute """
+    def __init__(self, size=0):
+        self.__size = size
+
+    """ defining the attribute to get it """
     def size(self):
-        return size
+        return self.__size
 
     def size(self, value):
         self.value = value
 
+    """ returns the area of a square """
     def area(self):
-        return self*self
+        return self.__size * self.__size
 
     def my_print(self):
-        print('{}'.format(size*size))
-
-
+        print('#{}'.format(self.__size * self.__size))
