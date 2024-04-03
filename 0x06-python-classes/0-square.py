@@ -4,4 +4,6 @@
 
 
 class Square:
+    "No attributes at the moment to the code"
+
     pass  # An empty block
