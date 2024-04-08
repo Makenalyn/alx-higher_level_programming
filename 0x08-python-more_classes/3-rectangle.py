@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 class Rectangle:
-    __width
+    __width = 0
 
     def width(self):
         return self.__width
@@ -19,7 +19,7 @@ class Rectangle:
         except ValueError:
             print("width must be >= 0")
             raise
-    __height
+    __height = 0
 
     def height(self):
         return self.__height
