@@ -3,7 +3,7 @@
 """ Class Rectangle defining rectangle """
 
 
-class REctangle:
+class Rectangle:
     def __init__(self, width=0, height=0):
         self.__width = 0
         self.__height = 0
@@ -19,9 +19,3 @@ class REctangle:
 
     def height(self, value):
         return self.value
-
-    if width < 0:
-        raise ValueError
-
-    if height < 0:
-        reuse ValueError
