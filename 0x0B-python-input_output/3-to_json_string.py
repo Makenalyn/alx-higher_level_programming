@@ -4,8 +4,16 @@
 
 import json
 
-""" function returns JSON representation of an object """
+""" function returns JSON representation of an object 
+
+
+    parameters - any object to be converted to json format
+
+    Return:
+
+        string rep of json
+"""
 
 
 def to_json_string(my_obj):
-    print(json.dumps([my_obj]))
+    return json.dumps([my_obj])
