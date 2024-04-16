@@ -4,7 +4,7 @@
 
 
 def read_file(filename=""):
-    """uses with to open file """
+    """uses with to open file using the utf8 coding style printing it"""
 
     with open(filename, encoding="utf-8") as f:
         write_data = f.read()
