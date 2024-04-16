@@ -9,5 +9,5 @@ def read_file(filename=""):
     with open(filename, encoding="utf-8") as f:
         write_data = f.read()
         print(write_data)
-
+    """ close the file on completion with it """
     f.close()
