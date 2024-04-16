@@ -3,6 +3,12 @@
 
 
 def from_json_string(my_str):
+    """
 
-    """ return tan object represented by a json string """
+    return tan object represented by a json string
+
+    my_str: object to return from the JSON format to object
+
+    Return: object
+    """
     return json.loads(my_str)
