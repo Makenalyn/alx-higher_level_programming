@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-import json
 """ functions returns ab object represented by a json string """
-
+import json
 
 def from_json_string(my_str):
     """
