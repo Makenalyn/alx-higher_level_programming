@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 def no_c(my_string):
-    for i in my_string:
-        if i == 67:
+    nw_str = my_string[:]
+    for i in nw_str:
+        if i == chr(67) or i == chr(99):
             continue
+        return nw_str
