@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+""" class base that will be base of other classes """
+
 
 class Base:
+    """ private attribute obj cont """
     __nb_objects = 0
 
     def __init__(self, id=None):
