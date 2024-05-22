@@ -1,0 +1,1 @@
+CREATE 'first_table'
