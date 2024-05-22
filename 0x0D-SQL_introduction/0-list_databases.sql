@@ -1,1 +1,1 @@
-mysqlshow
+SHOW DATABASES;
