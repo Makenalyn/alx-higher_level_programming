@@ -1,6 +1,7 @@
 #!/usr/bin/node
 
+//0-rectangle.js
 class Rectangle {
-	height;
-	width;
-}
+  width: w,
+  height: h
+};
