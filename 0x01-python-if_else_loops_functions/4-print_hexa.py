@@ -2,4 +2,4 @@
 
 for i in range(0, 99):
     hex_no = hex(i)
-    print(f'{i} = {hex_no}')
+    print('{} = {}'.format(i, hex_no))
