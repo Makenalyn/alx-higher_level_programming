@@ -3,6 +3,7 @@
 def no_c(my_string):
     nw_str = my_string[:]
     for i in nw_str:
-        if i == chr(67) or i == chr(99):
+        if ord(i) == 67 or ord(i) == 99:
             continue
-        return nw_str
+        else:
+            return nw_str
