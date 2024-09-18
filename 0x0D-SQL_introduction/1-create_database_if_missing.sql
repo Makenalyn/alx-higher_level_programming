@@ -1,2 +1,3 @@
--- create a database if missing
+-- create a database in MYSQL server
+-- create database if missing
 CREATE DATABASE 'hbtn_0c_0';
