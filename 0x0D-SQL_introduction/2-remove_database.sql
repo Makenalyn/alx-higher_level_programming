@@ -1,2 +1,3 @@
 -- delete a database from the server
-DROP DATABASE 'hbtn_0c_0';
+-- if database exist, script should not fail
+DROP DATABASE hbtn_0c_0;
